@@ -93,7 +93,23 @@ aside{
     right: 30%;
     width: 10rem;
 }
-
+/* figure animatiion */
+figure{
+    animation-name: pop-up;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 0.5s;
+}
+@keyframes pop-up {
+    from{
+        right: -10rem;
+    }
+    to{
+        right: 0;
+    }
+}
 /* figure transition */
 figure{
     transition-duration: 1s;
@@ -103,7 +119,3 @@ figure{
 figure:hover{
     right: -10rem;
 }
-
-
-
-
