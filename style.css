@@ -102,12 +102,29 @@ figure{
     animation-direction: normal;
     animation-delay: 0.5s;
 }
+/* aside animation */
+aside{
+    animation-name: pop-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 0.5s;
+}
 @keyframes pop-up {
     from{
         right: -10rem;
     }
     to{
         right: 0;
+    }
+}
+@keyframes pop-in {
+    from{
+        right: -10rem;
+    }
+    to{
+        right: 3%;
     }
 }
 /* figure transition */
