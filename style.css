@@ -80,6 +80,8 @@ button{
 /* aside */
 aside svg{
     margin-bottom: 4.2rem;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 }
 aside{
     position: absolute;
@@ -92,6 +94,10 @@ aside{
     top: 30%;
     right: 30%;
     width: 10rem;
+}
+/* aside hover */
+aside svg:hover{
+    transform: translateY(-5px);
 }
 /* figure animatiion */
 figure{
