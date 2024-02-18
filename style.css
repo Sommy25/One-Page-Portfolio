@@ -52,14 +52,21 @@ h2{
 }
 
 button{
-    background: var(--primary-color);
+    background-color: transparent;
+    outline: 2px solid var(--primary-color);
     border:none;
     color: var(--secondary-color);
     border-radius: 25px;
     padding: 0.5rem 1rem;
     margin-top: 2rem;
+    transition-duration: 0.5s;
 }
-
+/* button hover */
+button:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    transform: translateY(-0.5rem);
+}
 /* services */
 .services{
     margin-top: 1rem;
